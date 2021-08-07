@@ -1,0 +1,250 @@
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+h3 {
+    /* font-weight: 700; NOT SURE if i should make it bold... */
+}
+
+hr {
+    border: solid white 2px;
+    border-bottom: none;
+    margin: 0;
+}
+
+p {
+    color: #9fafc1;
+}
+
+.container-fluid {
+    padding: 3% 20%;
+}
+
+.navbar-brand {
+    /* font-weight: bold;  NOT SURE if better bold or not*/
+}
+
+.navbar {
+    color: white;
+    background-color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    /* text-align: right; not sure if it is better to center it or list it left*/
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    /*Nothing in there because standard is good. If i want to change it then do
+    color: green*/
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDM4NCAzODQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTM2OCAxNTQuNjY3OTY5aC0zNTJjLTguODMyMDMxIDAtMTYtNy4xNjc5NjktMTYtMTZzNy4xNjc5NjktMTYgMTYtMTZoMzUyYzguODMyMDMxIDAgMTYgNy4xNjc5NjkgMTYgMTZzLTcuMTY3OTY5IDE2LTE2IDE2em0wIDAiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSItLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6IzE4MWExYjsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkPSJtMzY4IDMyaC0zNTJjLTguODMyMDMxIDAtMTYtNy4xNjc5NjktMTYtMTZzNy4xNjc5NjktMTYgMTYtMTZoMzUyYzguODMyMDMxIDAgMTYgNy4xNjc5NjkgMTYgMTZzLTcuMTY3OTY5IDE2LTE2IDE2em0wIDAiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSItLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6IzE4MWExYjsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkPSJtMzY4IDI3Ny4zMzIwMzFoLTM1MmMtOC44MzIwMzEgMC0xNi03LjE2Nzk2OS0xNi0xNnM3LjE2Nzk2OS0xNiAxNi0xNmgzNTJjOC44MzIwMzEgMCAxNiA3LjE2Nzk2OSAxNiAxNnMtNy4xNjc5NjkgMTYtMTYgMTZ6bTAgMCIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9Ii0tZGFya3JlYWRlci1pbmxpbmUtZmlsbDojMTgxYTFiOyIgZGF0YS1kYXJrcmVhZGVyLWlubGluZS1maWxsPSIiIGNsYXNzPSIiPjwvcGF0aD48L2c+PC9zdmc+");
+}
+
+.landing_page_heading {
+    background-color: black;
+    color: white;
+}
+
+.mode_selection {
+    background-color: #92d36e;
+}
+
+.btn-dark{
+    background-color: black;
+    border-color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.15rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn-dark span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-dark span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+/* .btn-dark:hover {
+    background-color: #3d3d3d;
+    border-color: #3d3d3d;
+    wird grau beim drüber hovern
+} */
+
+.btn-dark:hover span {
+    padding-right: 25px;
+}
+
+.btn-dark:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn_mode_left{
+    /* padding:8px 31.5px 8px 31.5px; with this the button would be the same size as the picture(250x250)*/
+}
+
+.btn_mode_right{
+    padding:8px 38.5px 8px 38.5px; /*with this configuration the button is the same size as the left button */
+}
+
+.benefits {
+    background-color: #92d36e;
+    color: white;
+}
+
+.description_div_left {
+    /* left:50px; need to fgure out how to not make this apply when the screen is on small size */
+}
+
+
+#nav_bar_container {
+    padding: 3% 20%;
+}
+
+#heading_container {
+    padding: 3% 20%;
+}
+
+#motto {
+    color: #9fafc1;
+}
+
+#mode_selection_container {
+    background-color: #92d36e;
+    padding: 3% 20%;
+}
+
+#calculator_image {
+    width: 250px;
+}
+
+#check_mark_image {
+    width: 250px;
+    margin-right: 0;
+}
+
+#description_container {
+    padding: 3% 25%;
+}
+
+#description {
+    background-color: black;
+    color: white;
+}
+
+#description_heading {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#paragraph_description {
+    text-align: left;
+}
+
+#benefits_container {
+    background-color: #92d36e;
+    padding: 3% 25%;
+}
+
+#benefits_heading {
+    color: black;
+    /*Not sure if the blue or blue greyish from mock up or maybe another grey*/
+    font-weight: bold;
+    text-align: left;
+    margin-top: 8px;
+}
+
+#benefits_heading_2 {
+    color: black;
+    /*Not sure if the blue or blue greyish from mock up or maybe another grey*/
+    font-weight: bold;
+    text-align: left;
+    margin-top: 50px;
+}
+
+#benefits_paragraph {
+    color: #637992;
+    text-align: left;
+    clear: left;
+    margin-left: 51px;
+}
+
+#result_image{
+    height: 250px;
+}
+
+#footer {
+    background-color: black;
+}
+
+.star-icon-4 {
+    width: 16px;
+    height: 15px;
+    background: #9fafc1;
+}
+
+.circle-25 {
+    width: 36px;
+    height: 36px;
+    background: #edf0f4;
+}
+
+.icon {
+    max-width: 36px;
+    max-height: 36px;
+    background-color: #edf0f4;
+    border-radius: 100%;
+    float: left;
+    margin-right: 15px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTI1NiwwQzExNC40OTcsMCwwLDExNC41MDcsMCwyNTZjMCwxNDEuNTAzLDExNC41MDcsMjU2LDI1NiwyNTZjMTQxLjUwMywwLDI1Ni0xMTQuNTA3LDI1Ni0yNTYgICAgQzUxMiwxMTQuNDk3LDM5Ny40OTIsMCwyNTYsMHogTTI1Niw0NzJjLTExOS4zOTMsMC0yMTYtOTYuNjE1LTIxNi0yMTZjMC0xMTkuMzkzLDk2LjYxNS0yMTYsMjE2LTIxNiAgICBjMTE5LjM5MywwLDIxNiw5Ni42MTUsMjE2LDIxNkM0NzIsMzc1LjM5MywzNzUuMzg0LDQ3MiwyNTYsNDcyeiIgZmlsbD0iIzlmYWZjMSIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPgoJPC9nPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8cGF0aCBkPSJNMjU2LDIxNC4zM2MtMTEuMDQ2LDAtMjAsOC45NTQtMjAsMjB2MTI4Ljc5M2MwLDExLjA0Niw4Ljk1NCwyMCwyMCwyMHMyMC04Ljk1NSwyMC0yMC4wMDFWMjM0LjMzICAgIEMyNzYsMjIzLjI4NCwyNjcuMDQ2LDIxNC4zMywyNTYsMjE0LjMzeiIgZmlsbD0iIzlmYWZjMSIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPgoJPC9nPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8Y2lyY2xlIGN4PSIyNTYiIGN5PSIxNjIuODQiIHI9IjI3IiBmaWxsPSIjOWZhZmMxIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L2NpcmNsZT4KCTwvZz4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8L2c+PC9zdmc+)
+}
+
+.icon_benefits_heading_2{
+    margin-top: 25px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px black;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d6d6d6;
+  border-radius: 10px;
+  /* height: 100px; Changes the length of the scrollbar-thumb*/
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #bababa;
+}
